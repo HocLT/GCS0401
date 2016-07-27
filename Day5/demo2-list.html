@@ -7,11 +7,17 @@
 	<link rel="stylesheet" href="">
 	<style type="text/css" media="screen">
 		ul {
-			list-style: none;
+			list-style: square;
 		}	
 		div ul li {
 			display: inline;
 			margin: 0 10px 0 10px;
+		}
+		ol {
+			width: 100px;
+		}
+		ol li {
+			border-bottom: 1px solid blue;
 		}
 	</style>
 </head>
@@ -29,7 +35,7 @@
 		</ul>
 	</div>
 
-	<h3>Demo unordered list</h3>
+	<!-- <h3>Demo unordered list</h3> -->
 	<ul>
 		<li>File</li>
 		<li>Edit</li>
@@ -47,5 +53,20 @@
 		<li>View</li>
 		<li>Goto</li>
 	</ol>
+	<h3>Demo description list</h3>
+	<dl>
+		<dt>Linotype</dt>
+		<dd>Line-casting allowed type to be selected, used, then recirculated
+		into the machine automatically. This advance increased the speed of typesetting and printing dramatically.</dd>
+		     <dt>Photocomposition</dt>
+		<dd>Typefaces are stored on film then projected onto photo-sensitive paper. Lenses adjust the size of the type.</dd>
+	</dl>
+
+	<h3>Demo text formatting</h3>
+	<pre><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, 		necessitatibus unde laboriosam cumque natus quod quasi error. 
+	Officia delectus eligendi ab placeat suscipit maiores ratione distinctio aspernatur officiis, veritatis laboriosam.</div>
+	<div>	Cumque veritatis consequuntur eos porro animi illo eligendi magni rerum est laboriosam. 
+	Quo saepe accusantium corporis porro, qui omnis eligendi a dolorum, repellat maxime perspiciatis animi nulla unde assumenda adipisci.</div>
+	</pre>
 </body>
 </html>
