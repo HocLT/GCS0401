@@ -1,0 +1,6 @@
+https://github.com/HocLT/GCS0401
+
+1. Create a repository in GITHUB.COM
+2. Clone repository to local 
+3. Run Sublime Text and add the folder created in step 2 to project.
+4. ...
