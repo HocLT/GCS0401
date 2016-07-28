@@ -1,4 +1,4 @@
-https://github.com/HocLT/GCS0401
+https://github.com/HocLT/
 
 1. Create a repository in GITHUB.COM
 2. Clone repository to local 
