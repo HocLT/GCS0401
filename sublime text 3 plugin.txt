@@ -1,0 +1,18 @@
+1. Package Control : https://packagecontrol.io/installation
+2. Emmet
+3. AllAutoComplete
+4. ColorPicket
+5. DocBlockr
+6. snippets
+7. alignment
+8. Brackethighlighter
+9. SIDEBARENHANCEMENTS
+10. Sublime codeintel
+11. Sublime Linter
+12. html5
+13. jquery
+14. Git
+
+minimal install: 2, 3, 12
+
+full stack developer
