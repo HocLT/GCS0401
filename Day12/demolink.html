@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Demo Pseudo-link</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+		a {
+			text-decoration: none;
+		}
+		a:link {
+			color:green;
+		}
+		a:visited {
+			color:gray;
+		}
+		a:focus, a:hover {
+			color:pink;
+		}
+		a:active {
+			color:blue;
+		}
+		
+		a[target] {
+			background-color:lightpink; 
+		}
+
+		a[target='_blank'] {
+			background-color:lightgray; 
+		}
+	</style>
+</head>
+<body>
+	<h3><a href="http://www.apple.com" target="">Go to Apple</a></h3>
+	<h3><a href="http://www.google.com" target="_blank">Go to google</a></h3>
+	<h3><a href="http://www.yahoo.com" target="">Go to Yahoo</a></h3>
+	<h3><a href="http://www.microsoft.com">Go to Microsoft</a></h3>
+</body>
+</html>
